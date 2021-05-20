@@ -48,13 +48,7 @@ body {
   color:whitesmoke !important;
   font-family: 'Merriwaether Sans', Arial, Helvetica, sans-serif;
 }
-h1 {
-    font-size: 28px;
-    text-align: center;
-    margin: 8px;
-    font-family: 'Bruno-Ace', 'Black Ops One', cursive;
-    color: #1928af;
-}
+
 .jumbotron {
   background-image: url("../images/homebrewing-header.jpg");
   background-repeat: no-repeat;
@@ -71,12 +65,17 @@ h1 {
   background-color: rgba(252, 248, 241, 0.603);
   display: flexbox;
 }
+.text-background-eq {
+  display: inline-block;
+  width: 350px;
+  height: 125px;
+  background-color: rgba(252, 248, 241, 0.703);
+  display: flexbox;
+}
 .col-sm-3 {
   margin: 0px 5px 0px 5px;
 }
-h3 {
-  font-family: 'Merriweather Sans', Arial, Helvetica, sans-serif;
-}
+
 footer {
   background-color: #ccb276;
 }
@@ -84,4 +83,55 @@ footer {
   background-color: #1928af !important;
   background-size: cover;
   color: white;
+}
+p {
+  font-size: 14px;
+  font-family: 'Merriweather Sans', Arial, Helvetica, sans-serif;
+}
+.jumbotron2 {
+  background-image: url("../images/equipment-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f3e9d1;
+  margin: 10px auto;
+  justify-content: center;
+  height: 150px;
+}
+.jumbotron3 {
+  background-image: url("../images/nb-categpry-header_ipa-beer-kits.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f3e9d1;
+  margin: 10px auto;
+  justify-content: center;
+  height: 200px;
+}
+.row {
+  padding-left: 20px;
+  padding-right: 20px; 
+}
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin: 8px;
+  font-family: 'Merriweather', serif;
+  font-weight: 800;
+  color: #1928af;
+}
+h2 {
+  font-family: 'Merriweather Sans', Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #1928af;
+}
+h3 {
+  font-family: 'Merriweather Sans', Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic;
+}
+h4 {
+  font-family: 'Merriweather Sans', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
 }
