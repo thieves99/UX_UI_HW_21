@@ -135,3 +135,6 @@ h4 {
   font-size: 20px;
   font-weight: 700;
 }
+.mx-auto {
+  margin-top: 20px;
+}
